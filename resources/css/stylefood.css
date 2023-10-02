@@ -1,0 +1,328 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: 'myfont';
+	src: url("../fonts/transfonter.org-20230725-073146/HandWriting.woff2") format('woff2'),
+		url("../fonts/transfonter.org-20230725-073146/HandWriting.woff") format('woff'), url("../fonts/transfonter.org-20230725-073146/HandWriting.ttf") format('ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url("../fonts/Inter-2/Inter-VariableFont_slnt,wght.ttf") format('ttf');
+}
+
+html {
+	font-size: 18px;
+	scroll-behavior: smooth;
+}
+
+/* navbar */
+
+header { 
+	top: 0; left: 0; right: 0;
+	background: white; 
+	padding: 20px 7%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+}
+
+header .navbar ul { 
+	list-style: none;	
+}
+
+header .navbar ul li {
+	position: relative;
+	float: left;
+	color: black;
+}
+
+header .navbar ul li a {
+	font-size: 20px;
+	font-family: 'myfont', 'Inter', sans-serif;
+	padding: 20px;
+	color: black;
+	display: block;
+	text-decoration: none;
+	z-index:1001;
+}
+
+header .navbar ul li a:hover {
+	color: #93bfef;
+}
+
+
+header .navbar ul li ul {
+	position: absolute;
+	left: 0;
+	width: 150px;
+	background-color: #FAFAFA;
+	display: none;
+}
+
+header .navbar ul li ul li {
+	width: 100%;
+	
+}
+
+header .navbar ul li:hover > ul { 
+	display: initial;
+}
+
+#menu-bar {
+	display: none;
+}
+
+header label {
+	font-size: 20px;
+	color: black;
+	cursor: pointer;
+	display: none;
+}
+
+
+
+
+
+
+
+/*alignment*/
+body {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 2;
+}
+
+h1 {
+	font-family: 'myfont', arial, sans-serif;
+	font-size: 3.8rem;
+	text-align: center;
+	padding: 1%;
+	margin-top: 1%;
+	position: relative;
+}
+
+h3 {
+	font-family: 'myfont', arial, sans-serif;
+	font-size: 2rem;
+	font-weight: 100;
+}
+
+p {
+	font-family: arial;
+	font-size: 1rem;
+}
+
+/*selection section*/
+.introduction p {
+	font-size: 1rem;
+	font-family: arial;
+	width: 70%;
+	margin: 0 auto;
+}
+
+#sentence1 {
+	padding-top: 3%;
+	padding-bottom: 5%;
+}
+
+#sentence2 {
+	paddinf-top: 2%;
+	padding-bottom: 5%;
+}
+
+.introduction ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.introduction ul li a:hover{
+	text-decoration: none;
+	color: #f6bdda;
+}
+
+#selection-list li {
+	display: inline-block;
+	padding-top: 5%;
+	padding-bottom: 17%;
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 2.5rem;
+	font-family: 'myfont', arial, sans-serif;
+}
+
+
+/*sicily*/
+
+#sicily{
+	width: 60%;
+}
+
+#sicily-edit {
+	width: 20%;
+}
+
+#sicily-caption {
+	padding-top: 2%;
+	padding-bottom: 1%;
+	width: 60%;
+	margin: 0 auto;
+}
+
+#audio {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 60%;
+	margin: 0 auto;
+}
+.parent {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.image1 {
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.image2 {
+	position: absolute;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+ .return {
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+	top: 0;
+	text-align: right;
+	font-family: arial;
+	padding: 1%;
+	z-index: 4;
+} 
+
+/*root25*/
+
+#root25 {
+	width: 55%;
+	margin: 0 auto;
+}
+
+#root25-edit {
+	width: 40%;
+}
+
+#root25-caption {
+	padding-top: 2%;
+	padding-bottom: 1%;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.parent {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: top;
+	flex-wrap: wrap;
+}
+
+.image3 {
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.image4 {
+	position: absolute;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+#seats {
+	width: 60%;
+}
+
+.links {
+	font-family: 'myfont', Arial, sans-serif;
+    font-size: 1.1rem;
+	display: inline-block;
+}
+
+.links li {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*footer*/
+foot {
+	font-family:'myfont', Arial, sans-serif;
+	font-size: 1rem;
+}
+
+/*media query*/
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	html {
+		font-size: 12px;
+	}
+	
+}
+
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+	html {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	}
+
+@media only screen and (max-width:800px) {
+	
+	header {
+		padding:20px;
+	}
+	
+	header label{
+		display: initial;
+	}
+	
+	header .navbar {
+		position: absolute;
+		top:100%; left:0; right:0;
+		background: white;
+		display: none;
+	}
+	
+	header .navbar ul li {
+		width: 100%;
+	}
+	
+	header .navbar ul li ul {
+		position: relative;
+		width: 100%;
+	}
+	
+	#menu-bar:checked ~ .navbar {
+		display: initial;
+	}
+
+}
+

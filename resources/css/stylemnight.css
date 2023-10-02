@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: 'myfont';
+	src: url("../fonts/transfonter.org-20230725-073146/HandWriting.woff2") format('woff2'),
+		url("../fonts/transfonter.org-20230725-073146/HandWriting.woff") format('woff'), url("../fonts/transfonter.org-20230725-073146/HandWriting.ttf") format('ttf');
+	font-display: swap;
+}
+
+@font-face {
+font-family: "Inter";
+src: url("../../../../../../../Downloads/webfontkit-20230813-164148/inter-variablefont_slntwght-webfont.woff2") format('woff2'), url("../../../../../../../Downloads/webfontkit-20230813-164148/inter-variablefont_slntwght-webfont.woff") format('woff'), url("../fonts/Inter-2/Inter-VariableFont_slnt,wght.ttf") format('ttf');
+}
+
+
+
+html {
+	font-size: 18px;
+	font-family: Inter;
+	scroll-behavior: smooth;
+}
+/*
+body {
+	background-image: url("../../background.jpeg");
+}
+
+/* navbar */
+
+header { 
+	position: fixed;
+	top: 0; left: 0; right: 0;
+	background: white; 
+	padding: 20px 7%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+}
+
+header .navbar ul { 
+	list-style: none;	
+}
+
+header .navbar ul li {
+	position: relative;
+	float: left;
+	color: black;
+}
+
+header .navbar ul li a {
+	font-size: 20px;
+	font-family: 'myfont', 'Inter', sans-serif;
+	padding: 20px;
+	color: black;
+	display: block;
+	text-decoration: none;
+}
+
+header .navbar ul li a:hover {
+	color: #93bfef;
+}
+
+
+header .navbar ul li ul {
+	position: absolute;
+	left: 0;
+	width: 150px;
+	background-color: #FAFAFA;
+	display: none;
+}
+
+header .navbar ul li ul li {
+	width: 100%;
+	
+}
+
+header .navbar ul li:hover > ul { 
+	display: initial;
+}
+
+header .navbar ul li ul li a:hover  {
+	color: #8bd978;
+}
+
+#menu-bar {
+	display: none;
+}
+
+header label {
+	font-size: 20px;
+	color: black;
+	cursor: pointer;
+	display: none;
+}
+
+
+
+section {
+	padding-top: 18vh;
+	height: 80vh;
+	margin: 0 9rem;
+	box-sizing: border-box;
+	min-height: fit-content;
+}
+
+.section-container {
+	display: flex;
+}
+
+
+.title {
+	font-family: 'myfont', 'Inter', sans-serif;
+	font-size: 3rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+#mind-map {
+	padding: 5% 10%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.section-pic-container {
+	flex-direction: row;
+}
+
+.section-text {
+	flex-direction: row;
+}
+
+#hikayat {
+	padding: 5% 10%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'myfont', Inter, sans-serif;
+}
+
+h1 {
+	font-family: 'myfont', Inter, sans-serif;
+	padding-top: 20vh;
+}

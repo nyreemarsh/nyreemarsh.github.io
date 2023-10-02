@@ -1,0 +1,270 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: 'myfont';
+	src: url("../fonts/transfonter.org-20230725-073146/HandWriting.woff2") format('woff2'),
+		url("../fonts/transfonter.org-20230725-073146/HandWriting.woff") format('woff'), url("../fonts/transfonter.org-20230725-073146/HandWriting.ttf") format('ttf');
+	font-display: swap;
+}
+
+@font-face {
+font-family: "Inter";
+src: url("../../../../../../../Downloads/webfontkit-20230813-164148/inter-variablefont_slntwght-webfont.woff2") format('woff2'), url("../../../../../../../Downloads/webfontkit-20230813-164148/inter-variablefont_slntwght-webfont.woff") format('woff'), url("../fonts/Inter-2/Inter-VariableFont_slnt,wght.ttf") format('ttf');
+}
+
+
+html {
+	font-size: 18px;
+	font-family: Inter;
+	scroll-behavior: smooth;
+}
+
+body {
+}
+
+/* navbar */
+
+header { 
+	position: fixed;
+	top: 0; left: 0; right: 0; 
+	background: white;
+	padding: 20px 7%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+}
+
+header .navbar ul { 
+	list-style: none;
+
+}
+
+header .navbar ul li {
+	position: relative;
+	float: left;
+	color: black;
+	
+}
+
+header .navbar ul li a {
+	font-size: 1rem;
+	font-family: 'myfont', 'Inter', sans-serif;
+	padding: 20px;
+	margin: 2%;
+	color: black;
+	background-color: white;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+
+header .navbar ul li a:hover {
+	color: #93bfef;
+}
+
+
+header .navbar ul li ul {
+	position: absolute;
+	left: 0;
+	width: 150px;
+	display: none;
+}
+
+header .navbar ul li ul li {
+	width: 100%;
+	
+}
+
+header .navbar ul li:hover > ul { 
+	display: initial;
+}
+
+header .navbar ul li ul li a:hover  {
+	color: #8bd978;
+}
+
+#menu-bar {
+	display: none;
+}
+
+header label {
+	font-size: 20px;
+	color: black;
+	cursor: pointer;
+	display: none;
+}
+
+
+
+/* film-selection section */
+
+section {
+	padding-top: 20vh;
+	height: 80vh;
+	margin: 0 9rem;
+	box-sizing: border-box;
+	min-height: fit-content;
+}
+
+.section-container {
+	display: flex;
+}
+
+#film-selection {
+	display: flex;
+	justify-content: center;
+	gap: 5 rem;
+}
+
+.section-text {
+	text-align: center;
+	justify-content: space-around;
+	
+}
+
+.section-text-p1 {
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+.section-text-p2 {
+	text-align: center;
+	padding-top: 4%;
+	padding-bottom: 5%;
+}
+
+.title {
+	font-family: 'myfont', 'Inter', sans-serif;
+	font-size: 3.5rem;
+	padding: 1%;
+	text-align: center;
+}
+
+.section-text ul li a {
+	text-decoration: none; 
+	color: black;
+}
+
+.section-text ul li a:hover {
+	text-decoration: none;
+	color: #f6bdda;
+}
+
+#selection-list li {
+	display: inline-flex;
+	font-family: 'myfont', 'Inter', sans-serif;
+	font-size: 2.5rem;
+	padding: 6% 10%;
+}
+
+.return-top {
+	margin-left: 2%;
+}
+
+.fa-solid, .fa-arrow-up .fa-bounce {
+	color: black;
+}
+
+.fa-arrow-up:hover {
+	color: #f0db73;
+}
+
+/* sicily */
+#sicily {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	font-family: 'myfont', 'Inter', sans-serif;
+	font-size: 2rem;
+	padding-right: 10%;
+	padding-bottom: 2%
+}
+
+.section-pic-container {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.img1 {
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.img2 {
+	position: absolute;
+	margin: 0 auto;
+	z-index: 2;
+	width: 33%;
+}
+
+.section-text-p3, .section-text-p4 {
+	padding-bottom: 5%;
+}
+
+/* root25 */
+
+#root25 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.parent {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: top;
+	flex-wrap: wrap;
+}
+
+.img3 {
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 90%;
+
+}
+
+.img4 {
+	position: absolute;
+	margin: 0 auto;
+	z-index: 2;
+	width: 65%;
+	padding-top: 8%;
+}
+
+.img5 {
+	width: 90%;
+}
+
+footer {
+	text-align: center;
+	padding: 7%;
+}
+
+footer ul li {
+	text-decoration: none;
+	display: inline-flex;
+	padding: 3% 1%;
+}
+
+footer ul li a:hover {
+	color: #a173c0;
+}
+

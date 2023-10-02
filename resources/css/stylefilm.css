@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: 'myfont';
+	src: url("../fonts/transfonter.org-20230725-073146/HandWriting.woff2") format('woff2'),
+		url("../fonts/transfonter.org-20230725-073146/HandWriting.woff") format('woff'), url("../fonts/transfonter.org-20230725-073146/HandWriting.ttf") format('ttf');
+	font-display: swap;
+}
+
+/*links*/
+
+a:link {
+  color: black; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: #f6bdda;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #93bfef;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #f0db73;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/*navigation bar*/
+.navbar {
+	position: fixed;
+	position: -webkit-sticky; /*Safari*/
+	position: sticky;
+	top: 0;
+	width: 100%;
+	padding-top: 20px;
+	display: inline-block;
+	margin: 0 auto;
+	background-color: white;
+	z-index: 1;
+}
+
+ul {
+	list-style-type:none;
+	width: 600px;
+	min-width: 200px;
+	margin: 0 auto;
+	padding: 0;
+	font-family:'myfont', Arial, sans-serif;
+	font-size: 20px;
+	font-color: black;
+}
+
+.navbar li {
+	display: inline;
+	float: left;
+}
+
+a {
+    display: block;
+	padding: 10px 30px;
+}
+
+/*selection section*/
+.selection {
+	display: inline-block;
+	
+}
+
+.selection li {
+	font-size: 50px;
+	display: inline-block;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	
+}
+/*
+
+/*alignment*/
+body {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	font-family: 'myfont', Arial, sans-serif;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 20px;
+	padding: 20px;
+	position: relative;
+}
+
+h3 {
+	font-family: 'myfont', Arial, sans-serif;
+	font-size: 35px;
+	position: static;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+p {
+	font-family: Arial;
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.text {
+	padding-bottom: 80px;
+}
+
+/*image*/ 
+.image1 {
+  position: absolute;
+	top: 800px;
+	left: 100px;
+	
+}
+
+.image2 {
+  position: absolute;
+	top: 950px;
+	left: 337px;
+ 
+}
+
+.comment-1 {
+	position: absolute;
+	top: 1050px;
+	left: 740px;
+	width: 35%;
+}
+
+.up {
+	position: absolute;
+	top: 2500px;
+	left: 1230px;
+	text-decroation: none;
+}
+/*image-2*/
+
+.image3 {
+	position: absolute;
+	top: 1600px;
+	left: 300px;
+}
+
+
+.image4 {
+	position: absolute;
+	top: 1700px;
+	left: 410px;
+
+}
+
+.comment-2 {
+	margin: 0 auto;
+	position: absolute;
+	top: 2400px;
+	left: 350px;
+	width: 50%;
+}
+
+
+
+/*media query*/
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.navbar ul { 
+	font-size: 0.5rem;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+	.navbar ul { 
+	font-size: 0.75rem;
+	}
+}
+
+
+
+
+
+
+

@@ -1,0 +1,253 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: 'myfont';
+	src: url("../fonts/transfonter.org-20230725-073146/HandWriting.woff2") format('woff2'),
+		url("../fonts/transfonter.org-20230725-073146/HandWriting.woff") format('woff'), url("../fonts/transfonter.org-20230725-073146/HandWriting.ttf") format('ttf');
+	font-display: swap;
+}
+
+@font-face {
+font-family: "Inter";
+src: url("../../../../../../../Downloads/webfontkit-20230813-164148/inter-variablefont_slntwght-webfont.woff2") format('woff2'), url("../../../../../../../Downloads/webfontkit-20230813-164148/inter-variablefont_slntwght-webfont.woff") format('woff'), url("../fonts/Inter-2/Inter-VariableFont_slnt,wght.ttf") format('ttf');
+}
+
+
+
+html {
+	font-size: 18px;
+	font-family: Inter;
+	scroll-behavior: smooth;
+}
+/*
+body {
+	background-image: url("../../background.jpeg");
+}
+
+/* navbar */
+
+header { 
+	position: fixed;
+	top: 0; left: 0; right: 0;
+	background: white; 
+	padding: 20px 7%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+}
+
+header .navbar ul { 
+	list-style: none;	
+}
+
+header .navbar ul li {
+	position: relative;
+	float: left;
+	color: black;
+}
+
+header .navbar ul li a {
+	font-size: 20px;
+	font-family: 'myfont', 'Inter', sans-serif;
+	padding: 20px;
+	color: black;
+	display: block;
+	text-decoration: none;
+}
+
+header .navbar ul li a:hover {
+	color: #93bfef;
+}
+
+
+header .navbar ul li ul {
+	position: absolute;
+	left: 0;
+	width: 150px;
+	background-color: #FAFAFA;
+	display: none;
+}
+
+header .navbar ul li ul li {
+	width: 100%;
+	
+}
+
+header .navbar ul li:hover > ul { 
+	display: initial;
+}
+
+header .navbar ul li ul li a:hover  {
+	color: #8bd978;
+}
+
+#menu-bar {
+	display: none;
+}
+
+header label {
+	font-size: 20px;
+	color: black;
+	cursor: pointer;
+	display: none;
+}
+
+
+
+
+
+/* profile section */
+
+section {
+	padding-top: 20vh;
+	height: 80vh;
+	margin: 0 9rem;
+	box-sizing: border-box;
+	min-height: fit-content;
+}
+
+.section-container {
+	display: flex;
+}
+
+#profile {
+	display: flex;
+	justify-content: center;
+	gap: 5rem;
+	height: 80vh;
+}
+
+.section-pic-container {
+	display: flex;
+	height: 550px;
+	width: 290px;
+	margin: auto 0;
+}
+
+.section_text {
+	align-self: center;
+	text-align: center;
+}
+
+.section_text p {
+	font-weight: 400;
+	font-family: 'Inter', sans-serif;
+}
+
+.section_text_p1 {
+	text-align: center;
+	font-size: 1.75rem;
+	margin-bottom: 0.5rem;
+}
+
+.section_text_p2 {
+	margin-bottom: 1rem;
+}
+
+.title {
+	font-family: 'myfont', 'Inter', sans-serif;
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+#socials-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+#cv, #contact-btn {
+	font-family: 'myfont', 'Inter', sans-serif;
+	font-size: 2rem;
+	margin-top: 2rem;
+	padding: 1rem 1rem;
+	color: black;
+	text-decoration: none
+}
+
+#cv:hover, #contact-btn:hover {
+	color: #f6bdda;
+}
+
+
+/* icons */
+
+.icon {
+	cursor: pointer;
+	height: 2rem;
+}
+
+
+
+
+/* about me */
+
+.section_text_p3 {
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	padding: 5%;
+}
+
+
+#about {
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.section-pic-container-1 {
+}
+
+#img1 {
+	width: 100%;
+	padding-top: 2%;
+}
+
+
+/* skills */
+
+#skills {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+.mind_map {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	padding: 7%;
+}
+
+footer ul li {
+	text-decoration: none;
+	display: inline-flex;
+	padding: 3% 1%;
+}
+
+footer ul li a:hover {
+	color: #a173c0;
+}
+
+return-top {
+	float: left;
+}
+
+.fa-solid, .fa-arrow-up .fa-bounce {
+	color: black;
+}
+
+.fa-arrow-up:hover {
+	color: #f0db73;
+}
