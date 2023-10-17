@@ -210,3 +210,50 @@ h2 {
   padding: 10px;
  object-fit: scale-down;
 }
+
+p {
+	text-align: center;
+}
+
+
+
+footer {
+	text-align: center;
+	padding: 7%;
+}
+
+footer ul li {
+	text-decoration: none;
+	display: inline-flex;
+	padding: 3% 1%;
+}
+
+footer ul li a:hover {
+	color: #a173c0;
+}
+
+return-top {
+	float: left;
+}
+
+.fa-solid, .fa-arrow-up .fa-bounce {
+	color: black;
+}
+
+.fa-arrow-up:hover {
+	color: #f0db73;
+}
+
+
+
+
+
+@media only screen and (max-width:480px) {
+section {
+	padding-top: 20vh;
+	height: 90vh;
+	margin: 0 1rem;
+	box-sizing: border-box;
+	min-height: fit-content;
+}
+}

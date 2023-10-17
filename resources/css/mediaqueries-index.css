@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen and (max-width:1400px) {
+	#profile {
+		height: 83vh;
+		margin-bottom: 6rem;
+	}
+	
+	section {
+		flex: auto;
+		flex-basis: auto;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	#profile {
+		height: 50vh;
+		margin-bottom: 2rem;
+	}
+	
+	section {
+	  display: flex;
+	  height: 275px;
+	  width: 145px;
+	  margin: auto 0;
+}
+	
+	#about {
+	  justify-content: center;
+	  align-items: center;
+	  flex-direction: column;
+	
+}
+	
+}
+
+@media only screen and (max-width:768px) {
+	
+	#about {
+	  justify-content: center;
+	  align-items: center;
+	  flex-direction: column;
+	
+}
+	
+	#img1 {
+	width: 200px;
+	padding-top: 2%;
+}
+}
