@@ -250,10 +250,18 @@ return-top {
 
 @media only screen and (max-width:480px) {
 section {
+	
 	padding-top: 20vh;
 	height: 90vh;
 	margin: 0 1rem;
 	box-sizing: border-box;
 	min-height: fit-content;
 }
+	
+footer {
+	text-align: center;
+	padding: 7%;
+	margin-top: 30%;
+}
+	
 }
