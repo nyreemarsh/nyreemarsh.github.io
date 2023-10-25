@@ -271,6 +271,10 @@ footer {
 	.title {
 		font-size: 2rem;
 	}
+	
+	#book-1, #book-2, #book-3, #book-4 {
+		margin: 0 1rem;
+	}
 
 }
 
