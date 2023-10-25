@@ -314,7 +314,7 @@ footer ul li a:hover {
 @media only screen and (max-width:480px) {
 	section {
 		margin: 0 2rem;
-		height: 100vh;
+		height: 120vh;
 	}
 	
 	.img1 {
