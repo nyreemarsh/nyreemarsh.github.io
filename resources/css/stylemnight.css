@@ -131,26 +131,11 @@ header label {
 }
 
 
-@media only screen and (max-width:1024px) {
-	section {
-		margin: 4rem 1rem;
-	}
-	
-	#hikayat {
-		padding: 5% 5%;
-	}
-}
-
-@media only screen and (max-width: 480px) {
-	.title {
-		font-size: 2rem;
-	}
-}
 
 section {
 	padding-top: 20vh;
 	height: 80vh;
-	margin: 4rem 5rem;
+	margin: 2rem 5rem;
 	box-sizing: border-box;
 	min-height: fit-content;
 }
@@ -167,14 +152,6 @@ section {
 	text-align: center;
 }
 
-#mind-map {
-	padding: 5% 10%;
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	flex-direction: column;
-	text-align: center;
-}
 
 .section-pic-container {
 	flex-direction: row;
@@ -184,14 +161,6 @@ section {
 	flex-direction: row;
 }
 
-#hikayat {
-	padding: 5% 10%;
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	flex-direction: column;
-	text-align: center;
-}
 
 h2 {
 	font-family: 'myfont', Inter, sans-serif;
@@ -201,6 +170,41 @@ h1 {
 	font-family: 'myfont', Inter, sans-serif;
 	padding-top: 20vh;
 }
+
+
+
+
+
+
+
+#hikayat {
+	display: flex;
+	justify-content: center;
+	margin: 2rem 5rem;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+
+@media only screen and (max-width:800px) {
+	.img1 {
+		width: 600px;
+	}
+}
+
+@media only screen and (max-width:600px) {
+	.img1 {
+		width: 400px;
+	}
+}
+
+@media only screen and (max-width:400px) {
+	.img1 {
+		width: 200px;
+	}
+}
+
+
 
 footer {
 	text-align: center;
