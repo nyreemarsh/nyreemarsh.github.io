@@ -301,3 +301,7 @@ section {
 		margin: 0 1rem;
 	}
 }
+
+p {
+	font-family: 'Inter', sans-serif;
+}

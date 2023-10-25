@@ -333,3 +333,8 @@ footer ul li a:hover {
 		height: 120vh;
 	}
 }
+
+p {
+
+	font-family: 'Inter', sans-serif;
+}

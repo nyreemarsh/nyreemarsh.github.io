@@ -249,3 +249,7 @@ return-top {
 .fa-arrow-up:hover {
 	color: #f0db73;
 }
+
+p {
+	font-family: 'Inter', sans-serif;
+}

@@ -205,7 +205,9 @@ section {
 }
 
 
-
+p {
+	font-family: 'Inter', sans-serif;
+}
 
 
 /* footer */
