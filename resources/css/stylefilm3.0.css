@@ -311,6 +311,12 @@ footer ul li a:hover {
 	}
 }
 
+@media only screen and (max-width:720px) {
+	section {
+		height: 160vh;
+	}
+}
+
 @media only screen and (max-width:480px) {
 	section {
 		margin: 0 2rem;

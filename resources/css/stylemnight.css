@@ -131,19 +131,26 @@ header label {
 }
 
 
-@media only screen and (max-width:900px) {
-
-section {
-		margin: 0 2rem;
+@media only screen and (max-width:1024px) {
+	section {
+		margin: 4rem 1rem;
 	}
 	
+	#hikayat {
+		padding: 5% 5%;
+	}
 }
 
+@media only screen and (max-width: 480px) {
+	.title {
+		font-size: 2rem;
+	}
+}
 
 section {
-	padding-top: 18vh;
+	padding-top: 20vh;
 	height: 80vh;
-	margin: 0 5rem;
+	margin: 4rem 5rem;
 	box-sizing: border-box;
 	min-height: fit-content;
 }
