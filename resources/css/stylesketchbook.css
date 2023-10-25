@@ -80,6 +80,10 @@ header .navbar ul li:hover > ul {
 	display: initial;
 }
 
+header .navbar ul li ul li a:hover  {
+	color: #8bd978;
+}
+
 #menu-bar {
 	display: none;
 }
@@ -264,4 +268,32 @@ footer {
 	margin-top: 30%;
 }
 	
+	.title {
+		font-size: 2rem;
+	}
+
+}
+
+@media only screen and (max-width:850px) {
+section {
+	
+	padding-top: 20vh;
+	height: 90vh;
+	margin: 0 3rem;
+	box-sizing: border-box;
+	min-height: fit-content;
+}
+	
+	.title {
+		font-size: 2.5rem;
+	}
+	
+}
+	
+@media only screen and (max-width:375px) {
+	
+	section {
+		height: 100vh;
+		margin: 0 1rem;
+	}
 }

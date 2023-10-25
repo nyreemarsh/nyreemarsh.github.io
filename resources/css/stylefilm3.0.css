@@ -96,6 +96,7 @@ header label {
 	display: none;
 }
 
+
 @media only screen and (max-width:800px) {
 	
 	header {
@@ -128,11 +129,12 @@ header label {
 
 }
 
+
 /* film-selection section */
 
 section {
 	padding-top: 20vh;
-	height: 80vh;
+	height: 100vh;
 	margin: 0 9rem;
 	box-sizing: border-box;
 	min-height: fit-content;
@@ -294,3 +296,34 @@ footer ul li a:hover {
 	color: #a173c0;
 }
 
+
+@media only screen and (max-width:900px) {
+	#sicily {
+		flex-direction: column;
+	}
+	
+	#root25 {
+		flex-direction: column;
+	}
+	
+	.title {
+		font-size: 2.5rem;
+	}
+}
+
+@media only screen and (max-width:480px) {
+	section {
+		margin: 0 2rem;
+		height: 100vh;
+	}
+	
+	.img1 {
+		width: 500px;
+	}
+}
+
+@media only screen and (max-width:375px) {
+	section {
+		height: 120vh;
+	}
+}

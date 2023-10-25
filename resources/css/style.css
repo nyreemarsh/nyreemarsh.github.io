@@ -370,6 +370,10 @@ return-top {
 	#img1 {
 		width: 450px;
 	}
+	
+	.mind_map {
+		width: 450px;
+	}
 }
 	
 
@@ -422,13 +426,44 @@ return-top {
 	
 }
 	
-	
-@media only screen and (max-width:480px) {
+/*	
+
 	
 .section-container {
 	display: flex;
 	flex-direction: column;
-	margin: 0 2rem;
+	margin: 0 1rem;
+}
+	
+	
+
+.section-pic-container {
+	display: flex;
+	width: 200px;
+	margin: auto 0;
+}
+	
+.section_text {
+	display: block;
+	margin: 0 1rem;	
+	align-text: center;
+	text-align: center;
+	}
+	
+	.section_text_p1 {
+		display: flex;
+	}
+	
+	#socials-container {
+		margin-left: 5rem;
+	}
+*/	
+@media only screen and (max-width:480px) {
+	section {
+	height: 100vh;
+    box-sizing: border-box;
+	min-height: fit-content;
+	
 }
 	
 	#profile {
@@ -436,25 +471,15 @@ return-top {
 	}
 	
 	#img1 {
-		width: 300px;
-		display: flex;
+		width: 400px;
 	}
 	
-
-section {
-	padding-top: 10vh;
-	height: 120vh;
-    box-sizing: border-box;
-	min-height: fit-content;
-	gap: 30rem;
-	
+	.mind_map {
+		width: 450px;
 }
-
-
-.mind_map {
-		width: 500px;
-	}
 	
-
+	#skills {
+		margin-left: 7rem;
 	}
+}
 }

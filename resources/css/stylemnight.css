@@ -127,18 +127,23 @@ header label {
 	#menu-bar:checked ~ .navbar {
 		display: initial;
 	}
-
+	
 }
 
 
+@media only screen and (max-width:900px) {
 
-
+section {
+		margin: 0 2rem;
+	}
+	
+}
 
 
 section {
 	padding-top: 18vh;
 	height: 80vh;
-	margin: 0 9rem;
+	margin: 0 5rem;
 	box-sizing: border-box;
 	min-height: fit-content;
 }
@@ -188,4 +193,31 @@ h2 {
 h1 {
 	font-family: 'myfont', Inter, sans-serif;
 	padding-top: 20vh;
+}
+
+footer {
+	text-align: center;
+	padding: 7%;
+}
+
+footer ul li {
+	text-decoration: none;
+	display: inline-flex;
+	padding: 3% 1%;
+}
+
+footer ul li a:hover {
+	color: #a173c0;
+}
+
+return-top {
+	float: left;
+}
+
+.fa-solid, .fa-arrow-up .fa-bounce {
+	color: black;
+}
+
+.fa-arrow-up:hover {
+	color: #f0db73;
 }
