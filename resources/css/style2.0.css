@@ -16,7 +16,7 @@ src: url("../../../../../../../Downloads/webfontkit-20230813-164148/inter-variab
 
 html {
 	font-size: 18px;
-	font-family: Inter;
+	font-family: "Inter";
 	scroll-behavior: smooth;
 }
 
@@ -247,6 +247,7 @@ return-top {
 	flex-direction: row;
 	align-content: center;
 	align-items: center;
+	text-align: center;
 }
 
 .section_pic-container-1 {

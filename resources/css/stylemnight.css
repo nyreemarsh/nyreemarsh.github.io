@@ -21,7 +21,7 @@ src: url("../../../../../../../Downloads/webfontkit-20230813-164148/inter-variab
 
 html {
 	font-size: 18px;
-	font-family: Inter;
+	font-family: "Inter";
 	scroll-behavior: smooth;
 }
 /*
