@@ -51,7 +51,7 @@ header .navbar ul li {
 
 header .navbar ul li a {
 	font-size: 20px;
-	font-family: 'myfont', 'Inter', sans-serif;
+	font-family: 'myfont', 'Schoolbell', 'Inter', sans-serif;
 	padding: 20px;
 	color: black;
 	display: block;
@@ -167,7 +167,7 @@ section {
 }
 
 .title {
-	font-family: 'myfont', 'Inter', sans-serif;
+	font-family: 'myfont', 'Schoolbell', 'Inter', sans-serif;
 	font-size: 3.5rem;
 	padding: 1%;
 	text-align: center;
@@ -185,7 +185,7 @@ section {
 
 #selection-list li {
 	display: inline-flex;
-	font-family: 'myfont', 'Inter', sans-serif;
+	font-family: 'myfont', 'Schoolbell', 'Inter', sans-serif;
 	font-size: 2rem;
 	padding: 5% 5%;
 }
@@ -199,7 +199,7 @@ section {
 }
 
 h2 {
-	font-family: "myfont", Inter, sans-serif;
+	font-family: "myfont", 'Schoolbell', 'Inter', sans-serif;
 	text-align: center;
 	padding-bottom: 1%;
 }

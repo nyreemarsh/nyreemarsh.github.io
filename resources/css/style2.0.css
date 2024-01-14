@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
-
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} 
 
 @font-face {
 	font-family: 'myfont';
@@ -47,7 +51,7 @@ header .navbar ul li {
 
 header .navbar ul li a {
 	font-size: 20px;
-	font-family: 'myfont', 'Inter', sans-serif;
+	font-family: 'myfont', 'Schoolbell', 'Inter', sans-serif;
 	padding: 20px;
 	color: black;
 	display: block;
@@ -120,8 +124,9 @@ header label {
 	#menu-bar:checked ~ .navbar {
 		display: initial;
 	}
-
+	
 }
+
 
 
 /* sections */
@@ -178,7 +183,7 @@ section {
 }
 
 .title {
-	font-family: 'myfont', 'Inter', sans-serif;
+	font-family: 'myfont', 'Schoolbell', 'Inter', sans-serif;
 	font-size: 3.5rem;
 	text-align: center;
 	margin-bottom: 1rem;
@@ -192,7 +197,7 @@ section {
 }
 
 #cv, #contact-btn {
-	font-family: 'myfont', 'Inter', sans-serif;
+	font-family: 'myfont','Schoolbell', 'Inter', sans-serif;
 	font-size: 2rem;
 	margin-top: 2rem;
 	padding: 1rem 1rem;
@@ -261,7 +266,7 @@ return-top {
 }
 
 h2 {
-    font-family: 'myfont', 'Inter', sans-serif;
+    font-family: 'myfont', 'Schoolbell', 'Inter', sans-serif;
 	font-size: 3rem;
 }
 
