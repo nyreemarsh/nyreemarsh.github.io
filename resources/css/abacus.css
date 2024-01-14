@@ -154,6 +154,12 @@ section {
 	text-align: center;
 }
 
+.subtitle {
+	ont-family: 'myfont', 'Inter', sans-serif;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
 
 .section-pic-container {
 	flex-direction: row;
@@ -194,8 +200,6 @@ p {
 
 .section-pic-container {
 	display: flex;
-	height: 450px;
-	width: 550px;
 	margin: auto 0;
 }
 
@@ -275,6 +279,17 @@ h2 {
 	flex-direction: column;
 }
 
+
+/*moodboard */
+
+#moodboard {
+	display: flex;
+	justify-content: center;
+	margin: 2rem 5rem;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
 /* footer */
 
 footer {
@@ -337,6 +352,10 @@ return-top {
 			height: 500px;
 			width: 500px;
 		}
+		
+		.img1 {
+		width: 600px;
+	}
 	}
 	
 	@media only screen and (max-width:600px) {
@@ -349,7 +368,23 @@ return-top {
 			height: 400px;
 			width: 400px;
 		}
+		
+		.img1 {
+		width: 400px;
 	}
+	}
+	
+	@media only screen and (max-width:500px) {
+	.img1 {
+		width: 450px;
+	}
+}
+
+@media only screen and (max-width:450px) {
+	.img1 {
+		width: 400px;
+	}
+}
 	
 	@media only screen and (max-width:400px) {
 		#boat-party {
@@ -361,6 +396,15 @@ return-top {
 			height: 300px;
 			width: 300px;
 		}
+	}
+	.img1 {
+		width: 350px;
+	}
+}
+
+@media only screen and (max-width:350px) {
+	.img1 {
+		width: 300px;
 	}
 }
 
