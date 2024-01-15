@@ -218,6 +218,12 @@ h1 {
 	text-align: center;
 	margin: 2rem 2rem;
 }
+	.title {
+	font-family: 'myfont', 'Inter', sans-serif;
+	font-size: 2.5rem;
+	margin-bottom: 1rem;
+	text-align: center;
+}
 }
 
 @media only screen and (max-width:450px) {
