@@ -145,7 +145,7 @@ section {
 
 
 .title {
-	font-family: 'myfont', 'Inter', sans-serif;
+	font-family: 'myfont','Schoolbell', 'Inter', sans-serif;
 	font-size: 3rem;
 	margin-bottom: 1rem;
 	text-align: center;
@@ -163,11 +163,11 @@ section {
 
 
 h2 {
-	font-family: 'myfont', Inter, sans-serif;
+	font-family: 'myfont', 'Schoolbell', Inter, sans-serif;
 }
 
 h1 {
-	font-family: 'myfont', Inter, sans-serif;
+	font-family: 'myfont', 'Schoolbell', Inter, sans-serif;
 	padding-top: 20vh;
 }
 
